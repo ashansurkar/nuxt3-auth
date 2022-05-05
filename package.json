@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.1",
+    "sass": "^1.51.0",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.21.0",
+    "@auth0/auth0-vue": "^1.0.0",
+    "@nuxtjs/auth-next": "^5.0.0-1648802546.c9880dc",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "auth0": "^2.40.0"
+  }
+}
